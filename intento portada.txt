@@ -1,0 +1,25 @@
+\begin{frame}
+\noindent
+\begin{center}
+\begin{tiny}
+    \bfseries
+    INSTITUTO POLIT\'{E}CNICO NACIONAL\\
+	%\vspace{0.5cm}
+    Centro de Innovaci\'on y Desarrollo\\ 
+    Tecnol\'ogico en C\'omputo\\
+\end{tiny}
+\end{center}
+
+%\vfill
+\begin{picture}(2,2)(-10,-20)
+\includegraphics[width=1cm]{Logos/logo_ipn.eps}
+%\line(1,0){200}
+\end{picture}
+
+\begin{picture}(2,2)(-255,-35)
+\includegraphics[width=1cm]{Logos/logo_cidetec.eps}
+\end{picture}
+\end{frame}
+
+\titlepage
+\end{document}
