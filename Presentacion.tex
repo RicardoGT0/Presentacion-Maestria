@@ -1,83 +1,17 @@
-\documentclass[11pt]{beamer}
-%\useoutertheme{infolines}
-\usetheme{Montpellier}
-\usepackage[utf8]{inputenc}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{graphicx}
-\usepackage{array}
-
-%\setbeamercovered{transparent} 
-\setbeamertemplate{navigation symbols}{} 
-\logo{\includegraphics[width=.5cm]{Logos/logo_cidetec1.eps}
- \normalsize\insertframenumber} 
-
-\title[Tesis]{\small\textbf{Sistema de aprendizaje no supervisado para la 
- detecci\'on y automatizaci\'on de tareas repetitivas en el entorno de una 
-  computadora}}
-
-\author[Gonz\'alez Tello]{
-\textbf{\footnotesize Presenta:}\\
-[0.1cm]{\footnotesize Ing.Ricardo Gonz\'alez Tello \\
-[0.2cm] \footnotesize\textbf{Directores:} \\
-[0.1cm] \footnotesize Dr. Jos\'e F\'elix S\'errano Talamantes \\
-[0.1cm] \footnotesize Dr. Mauricio Olgu\'in Carbajal}
-}
-
-\date{\footnotesize México, Ciudad de México \hspace{2.5cm}
-      \footnotesize Diciembre de 2018}
-
+\input{preamble.tex}
 
 \begin{document}
-\renewcommand{\tablename}{Tabla}
-\renewcommand{\figurename}{Figura}
 
-\begin{frame}
-\begin{center}
-
-    INSTITUTO POLIT\'{E}CNICO NACIONAL\\
-	%\vspace{0.5cm}
-    Centro de Innovaci\'on y Desarrollo
-    Tecnol\'ogico en C\'omputo
-
-\end{center}
-\titlepage
-\end{frame}
-
-\begin{frame}
-\frametitle{Contenido}
-\footnotesize
-\tableofcontents[hideothersubsections, subsubsectionstyle=hide]
-\end{frame}
-
-\input{Capitulos/Cap1.tex}
-\input{Capitulos/Cap2.tex}
-\input{Capitulos/Cap3.tex}
-\input{Capitulos/Cap4.tex}
-\input{Capitulos/Demo.tex}
-\input{Capitulos/Cap5.tex}
-\input{Capitulos/Cap6.tex}
-
-
-\section{Referencias}
-\begin{frame}
-\Huge
-\centering
-Referencias
-\end{frame}
-\bibliographystyle{plain}
-\tiny
-\bibliography{Bibliografia}
-
-
-
-
-\begin{frame}
-\centering
-\begin{Huge}
-Gracias
-\end{Huge}
-\end{frame}
+\input{Secciones/Portada.tex}
+\input{Secciones/Contenido.tex}
+\input{Secciones/Cap1.tex}
+\input{Secciones/Cap2.tex}
+\input{Secciones/Cap3.tex}
+\input{Secciones/Cap4.tex}
+\input{Secciones/Demo.tex}
+\input{Secciones/Cap5.tex}
+\input{Secciones/Cap6.tex}
+\input{Secciones/Referencias.tex}
+\input{Secciones/Gracias.tex}
 
 \end{document}
